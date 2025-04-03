@@ -7,4 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  logLevel: 'debug', // 👈 Ajout pour avoir les erreurs détaillées dans Vercel
 });
